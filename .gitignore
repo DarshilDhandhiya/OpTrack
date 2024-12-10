@@ -1,0 +1,84 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+.bower_components/
+
+# Build output
+dist/
+dist-ssr/
+build/
+.out/
+.next/
+coverage/
+temp/
+tmp/
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+.dockerignore
+
+# Kubernetes and Helm
+k8s-config/
+*.yaml
+*.yml
+.helm/
+*.tgz
+
+# Nginx
+*.conf
+
+# Temporary files
+*.swp
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Editor and IDE files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Git and CI/CD
+.git/
+*.lock
+*.pid
+*.seed
+*.log
+
+# Ansible
+*.retry
+*.inventory
+
+# Monitoring tool configurations
+grafana-dashboards/
+prometheus-data/
+monitoring-config/
+helm-charts/
+
+# Ignore custom values files
+values-*.yaml
